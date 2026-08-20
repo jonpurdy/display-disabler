@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* DisplayDisablerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000110000000000000001 /* DisplayDisablerApp.swift */; };
+		A10000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000110000000000000002 /* ContentView.swift */; };
+		A10000010000000000000003 /* DisplayInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000110000000000000003 /* DisplayInfo.swift */; };
+		A10000010000000000000004 /* DisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000110000000000000004 /* DisplayManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000110000000000000001 /* DisplayDisablerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDisablerApp.swift; sourceTree = "<group>"; };
+		A10000110000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A10000110000000000000003 /* DisplayInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayInfo.swift; sourceTree = "<group>"; };
+		A10000110000000000000004 /* DisplayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayManager.swift; sourceTree = "<group>"; };
+		A10000110000000000000005 /* CGSBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGSBridge.h; sourceTree = "<group>"; };
+		A10000110000000000000006 /* DisplayDisabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayDisabler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000210000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000310000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A10000310000000000000002 /* DisplayDisabler */,
+				A10000310000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000310000000000000002 /* DisplayDisabler */ = {
+			isa = PBXGroup;
+			children = (
+				A10000110000000000000005 /* CGSBridge.h */,
+				A10000110000000000000001 /* DisplayDisablerApp.swift */,
+				A10000110000000000000002 /* ContentView.swift */,
+				A10000110000000000000003 /* DisplayInfo.swift */,
+				A10000110000000000000004 /* DisplayManager.swift */,
+			);
+			name = DisplayDisabler;
+			sourceTree = "<group>";
+		};
+		A10000310000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000110000000000000006 /* DisplayDisabler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000410000000000000001 /* DisplayDisabler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000610000000000000001 /* Build configuration list for PBXNativeTarget "DisplayDisabler" */;
+			buildPhases = (
+				A10000210000000000000002 /* Sources */,
+				A10000210000000000000001 /* Frameworks */,
+				A10000210000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisplayDisabler;
+			productName = DisplayDisabler;
+			productReference = A10000110000000000000006 /* DisplayDisabler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000510000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A10000410000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000610000000000000002 /* Build configuration list for PBXProject "DisplayDisabler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000310000000000000001;
+			productRefGroup = A10000310000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000410000000000000001 /* DisplayDisabler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000210000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000210000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000002 /* ContentView.swift in Sources */,
+				A10000010000000000000001 /* DisplayDisablerApp.swift in Sources */,
+				A10000010000000000000003 /* DisplayInfo.swift in Sources */,
+				A10000010000000000000004 /* DisplayManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000710000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Display Disabler";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DisplayDisabler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = CGSBridge.h;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A10000710000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Display Disabler";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DisplayDisabler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = CGSBridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A10000710000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				CURRENT_PROJECT_VERSION = 1;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000710000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				CURRENT_PROJECT_VERSION = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000610000000000000001 /* Build configuration list for PBXNativeTarget "DisplayDisabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000710000000000000003 /* Debug */,
+				A10000710000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000610000000000000002 /* Build configuration list for PBXProject "DisplayDisabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000710000000000000001 /* Debug */,
+				A10000710000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000510000000000000001 /* Project object */;
+}
