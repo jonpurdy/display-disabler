@@ -2,6 +2,8 @@
 
 Minimal native macOS app for toggling the built-in MacBook display while an external display is connected.
 
+![Screenshot of Display Disabler](screenshot.png)
+
 ## Requirements
 
 - macOS 15 (Sequoia) or later; Sequoia is the target platform.
