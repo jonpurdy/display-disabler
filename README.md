@@ -49,6 +49,10 @@ The project disables code signing and App Sandbox for this local prototype. The 
 3. Click **Disable Built-in Display** to remove it from the active display layout. This action is unavailable unless an external display is active.
 4. Click **Enable Built-in Display** to restore it, or use **Toggle Built-in Display** to switch its state.
 
+Display Disabler stays in the menu bar when its window is closed. Click its menu bar item to toggle the display, reopen the window, or quit.
+
+To start Display Disabler automatically when you log in, turn on **Start at Login** in the menu bar menu. The app can be installed in `~/Applications` or another stable location; place it there before enabling the setting. macOS may require approval in System Settings > General > Login Items.
+
 While the app is running, **Shift-Control-Option-Command-D** toggles the built-in display from any foreground app. The **Displays** menu also provides enable, disable, toggle, and refresh actions.
 
 Errors appear in the window. Use **Copy Built-in Summary** or **Copy Activity Log** to copy diagnostic details when troubleshooting.

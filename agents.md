@@ -5,7 +5,7 @@
 Maintain a minimal native Swift + SwiftUI macOS app for toggling the built-in MacBook display while an external display is active.
 
 - Target macOS 15 (Sequoia), primarily Apple Silicon MacBooks.
-- Keep a normal foreground app window. No menu bar app or background helper.
+- Keep a menu bar app with the existing window available for details. No background helper.
 - Control only the built-in display. Enumerate external displays to determine whether disabling is safe.
 - Remove the display from the active macOS layout; do not simulate disabling with brightness.
 
@@ -38,6 +38,8 @@ Keep one simple window with:
 The **Displays** menu provides refresh, disable, enable, and toggle actions. **Command-R** refreshes. The global toggle works while the app is running, including when another app is foreground. Apply the same last-display safeguard to every disable entry point.
 
 Disable controls must be unavailable without an enabled external display. Enable controls may use the cached built-in ID when the display is missing from enumeration.
+
+The menu bar item shows display status, a state-dependent enable/disable action, an option to open the window, Start at Login, and Quit. Closing the window keeps the app running. Use `SMAppService.mainApp` for login registration without requiring a particular installation directory.
 
 ## Recovery
 
@@ -74,7 +76,7 @@ Do not claim hardware behavior was verified from a successful build alone.
 
 ## Non-goals
 
-No external-monitor controls, brightness or DDC/CI control, login items, daemons, helpers, automatic disable-on-connect, automatic unplug recovery, display arrangement/resolution editing, virtual displays, network features, auto-update, or analytics.
+No external-monitor controls, brightness or DDC/CI control, daemons, helpers, automatic disable-on-connect, automatic unplug recovery, display arrangement/resolution editing, virtual displays, network features, auto-update, or analytics.
 
 ## Background references
 
